@@ -1,12 +1,12 @@
-# #TWSThreeTierAppChallenge
+# #three tier deployment
 
 ## Overview
-This repository hosts the `#TWSThreeTierAppChallenge` for the TWS community. 
-The challenge involves deploying a Three-Tier Web Application using ReactJS, NodeJS, and MongoDB, with deployment on AWS EKS. Participants are encouraged to deploy the application, add creative enhancements, and submit a Pull Request (PR). Merged PRs will earn exciting prizes!
 
-**Get The Challenge here**
+The challenge involves deploying a Three-Tier Web Application using ReactJS, NodeJS, and MongoDB, with deployment on AWS EKS. 
 
-[![YouTube Video](https://img.youtube.com/vi/tvWQRTbMS1g/maxresdefault.jpg)](https://youtu.be/tvWQRTbMS1g?si=eki-boMemxr4PU7-)
+
+
+
 
 ## Prerequisites
 - Basic knowledge of Docker, and AWS services.
@@ -48,8 +48,6 @@ The `Kubernetes-Manifests-Files` directory holds Kubernetes manifests for deploy
 
 📈 **The journey covered everything from setting up tools to deploying a Three-Tier app, ensuring data persistence, and implementing CI/CD pipelines.**
 
-## Getting Started
-To get started with this project, refer to our [comprehensive guide](https://amanpathakdevops.medium.com/advanced-end-to-end-devsecops-kubernetes-three-tier-project-using-aws-eks-argocd-prometheus-fbbfdb956d1a) that walks you through IAM user setup, infrastructure provisioning, CI/CD pipeline configuration, EKS cluster creation, and more.
 
 ### Step 1: IAM Configuration
 - Create a user `eks-admin` with `AdministratorAccess`.
@@ -136,7 +134,7 @@ eksctl delete cluster --name three-tier-cluster --region us-west-2
 - Submit a Pull Request with a detailed description of your changes.
 
 ## Rewards
-- Successful PR merges will be eligible for exciting prizes!
+- Successful PR merges will be eligible for chatting with me
 
 ## Support
 For any queries or issues, please open an issue in the repository.
